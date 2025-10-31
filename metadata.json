@@ -1,0 +1,5 @@
+{
+  "name": "AI Chess Coach",
+  "description": "An advanced web-based chess application for playing against a local opponent or AI. Features post-game analysis with move classifications, suggestions, and natural language explanations powered by the Gemini API.",
+  "requestFramePermissions": []
+}

@@ -8,7 +8,7 @@ if (!API_KEY) {
   console.warn("Gemini API key not found. Explanations will not work. Please set the API_KEY environment variable.");
 }
 
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+const ai = new GoogleGenAI(API_KEY);
 
 export const getMoveExplanation = async (
   fen: string,
